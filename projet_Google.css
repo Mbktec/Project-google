@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-size: 20px;
+   
+}
+header{
+    padding-top: 15px;
+    height: 50px;
+    cursor: pointer;
+}
+.droite{
+    display: flex;
+    float: right;
+    margin-left: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.icone{
+width: 5%;
+}
+.google{
+    width: 300px;
+}
+.micro{
+    
+    width: 20px;
+    margin-left: 420px;
+    margin-top: -28px;
+    cursor:pointer;
+}
+.test{
+    width: 450px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+.menu{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+    
+}
+a {
+    text-decoration: none;
+}
+.bt1 {
+    margin-top: 30px;
+    font-size: 20px;
+}
+ul{ 
+    list-style: none;
+  
+}
+ul li{
+    margin-left:0px ;
+    display: inline;
+}
+.bas{ background-color: rgb(170, 170, 170);
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}
+h3{
+    background-color: rgb(170, 170, 170);
+    border-bottom: 0.1px solid  white;;
+}
+p{
+    margin-top: 10px;
+}
+.sign{
+    font-size: 20px;
+   
+}
+.bouton{
+font-size: 20px;
+height: 30px;
+background-color: rgb(86, 86, 219);
+}
+@media all and (max-width:600px) {
+    .google{
+        width: 150px;
+    }
+    .micro{
+    
+        width: 15px;
+        margin-left: 220px;
+        margin-top: -21px;
+        cursor:pointer;
+    }
+    .test{
+        width: 250px;
+        height: 20px;
+        border-radius: 20px;
+        
+    }
+}
